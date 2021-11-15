@@ -1,4 +1,6 @@
 # dark-image-enhancement-Pix2Pix
 Image-to-image translation to switch light conditions on toy images
 
-![img-2-img](".\img-to-img.png")
+<p align="center">
+  <img src="./img-to-img.png" width=800>
+</p>

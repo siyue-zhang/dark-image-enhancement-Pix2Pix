@@ -27,7 +27,7 @@ The training dataset includes 170 paired augmented dark/light toy images taken b
 
 ## Testing Images
 
-After training 8500 steps, the model generated good estimations for training images. Then 3 new images are used for testing. The color is indeed lighten as expected. What surprises is the shadow of the toy in the image is also estimated by Pix2Pix model. As we can see, the shadow doesn't exist in the dark image and only appears in the light image because the light is turned on when taking the photo. Although the shape of generated shadow is not exactly the same with the shadow in the real image, it's pretty close. It's believed that the generated image quality can be even improved by adding more training images and traing more epochs.
+After training 8500 steps, the model generated good estimations for training images. Then 3 new images are used for testing. The color is indeed lighten as expected. What surprises is the shadow of the toy in the image is also estimated by Pix2Pix model. As we can see, the shadow doesn't exist in the dark image and only appears in the light image because the light is turned on when taking the photo. Although the shape of generated shadow is not exactly the same with the shadow in the real image, it's pretty close. The quality of generated image is not as good as the real image, the clearness could be improved. It could be combioned with another machine learning model for increasing image resolution. 
 
 <p align="center">
   <img src="./test_results.png" width=600>

@@ -1,5 +1,5 @@
 # dark-image-enhancement-Pix2Pix
-This objective is to switch light conditions / enhance color for dark images. In general, there are three types of machine learning techniques which can be used to enhance image color: 
+The objective is to switch light conditions / enhance color for dark images. In general, there are three types of machine learning techniques which can be used to enhance image color: 
 1. supervised learning models based on paired dark/light images; 
 2. unsupervised learning style transfer models based on one stack of dark images and the other stack of light images; 
 3. reinforcement learning to learn steps to adjust brightness, sharpness, or contrast. 

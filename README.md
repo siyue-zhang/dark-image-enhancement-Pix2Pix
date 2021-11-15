@@ -18,7 +18,7 @@ Mandatory python packages:
 
 ## Training Images
 
-The training dataset includes 170 paired augmented dark/light toy images taken by mobile phone with a fixed ISO value. 
+The training dataset includes 170 paired augmented dark/light toy images taken by mobile phone with a fixed ISO value. Training evolution is saved in the cell output of `trainer` jupyter notebook. Changes of generated images can be easily observed, which proves the success of learning.
 
 <p align="center">
   <img src="./trainset.png" width=600>
